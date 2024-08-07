@@ -1,6 +1,5 @@
 {
   "name": "my-react-app",
-  "homepage" : "https://Atifa-Qudoos.github.io/pukhtoon-solutions-hub",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +13,6 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "gh-pages": "^6.1.1",
     "html-webpack-inline-source-plugin": "^0.0.10",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
@@ -31,8 +29,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy" : "npm run build", 
-    "deploy": "gh-pages -d build", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
